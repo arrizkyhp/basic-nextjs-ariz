@@ -1,0 +1,25 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 3px dashed black;
+}
+
+.logo {
+  font-size: 21px;
+  padding-left: 10px;
+  font-weight: bold;
+  color: red;
+  text-transform: uppercase;
+}
+
+.list {
+  display: flex;
+  list-style: none;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.item {
+  margin: 0px 16px;
+}

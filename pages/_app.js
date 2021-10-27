@@ -1,7 +1,13 @@
-import '../styles/globals.css'
+import '../styles/globals.css';
+import propTypes from 'prop-types';
 
 function MyApp({ Component, pageProps }) {
-  return <Component {...pageProps} />
+  // eslint-disable-next-line react/jsx-props-no-spreading
+  return <Component {...pageProps} />;
 }
 
-export default MyApp
+MyApp.propTypes = {
+  Component: propTypes.node.isRequired,
+  pageProps: propTypes.node.isRequired,
+};
+export default MyApp;

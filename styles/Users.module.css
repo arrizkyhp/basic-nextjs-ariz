@@ -1,0 +1,22 @@
+.users {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(2, 1fr);
+  margin-top: 40px;
+}
+
+.card {
+  cursor: pointer;
+  border: 1px solid #000;
+  border-radius: 8px;
+  padding: 10px 20px;
+}
+
+.card:hover {
+  box-shadow: 1px 5px 4px 0px rgb(0 0 0 / 50%);
+  background-color: rgb(243, 236, 195);
+}
+
+.card .name {
+  font-size: 18px;
+}
